@@ -1,0 +1,102 @@
+.footer {
+  background: #333333;
+  padding: 0;
+  line-height: 1.5;
+  color: #a5a5a5;
+  text-align: center;
+  font-size: 12px;
+}
+.footer dl {
+  width: 120px;
+  float: left;
+  margin-right: 110px;
+  padding-top: 16px;
+  padding-bottom: 25px;
+  text-align: left;
+  color: #a5a5a5;
+}
+.footer dt {
+  position: relative;
+  color: #fff;
+  padding: 17px 0;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid #a1a1a1;
+  zoom: 1;
+}
+.footer dd {
+  line-height: 32px;
+  font-size: 12px;
+}
+.footer dd a {
+  color: #a5a5a5;
+}
+.footer .footer-icon {
+  font-size: 0;
+  padding: 3px 0 15px 0;
+}
+.footer .footer-icon-bg {
+  display: inline-block;
+  height: 30px;
+  background: url(http://style.912688.com/_resources/static/images/common-foot.png) no-repeat;
+  margin-right: 10px;
+}
+.footer .footer-icon1 {
+  width: 73px;
+  background-position: 0 0;
+}
+.footer .footer-icon2 {
+  width: 90px;
+  background-position: -82px 0;
+}
+.footer .footer-icon3 {
+  width: 73px;
+  background-position: -183px 0;
+}
+.footer .footer-icon4 {
+  width: 73px;
+  background-position: -266px 0;
+}
+.footer .footer-icon5 {
+  width: 171px;
+  background-position: -349px 0;
+}
+.footer .footer-icon6 {
+  width: 111px;
+  background-position: -530px 0;
+}
+.footer .footer-icon7 {
+  width: 80px;
+  background-position: -651px 0;
+  margin-right: 0;
+}
+
+.warp {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.footer dl.footer-link {
+  width: 155px;
+  margin-right: 0;
+}
+
+.footer-code {
+  float: right;
+  padding-top: 45px;
+}
+
+.footer-copy {
+  padding: 6px 0;
+  line-height: 25px;
+  border-top: 1px solid #666666;
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+}
+.footer-copy a {
+  color: #a5a5a5;
+}
+
+/*# sourceMappingURL=footer.css.map */

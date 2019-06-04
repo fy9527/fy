@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>搜好货注册</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://style.912688.com/_resources/facades/images/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">;
+    <link rel="stylesheet" href="css/register.css">;
+    <link rel="stylesheet" href="css/footer.css">;
+</head>>
+
+<body>
+    <div class="login-header">
+        <div class="login-wrap clear">
+            <a class="left" href="index.html">
+                <img src="http://style.912688.com/_resources/facades/images/logo/logo-slogan.png" alt="搜好货">
+            </a>
+            <p class="right">
+                已有账号,
+                <a href="login.html" class="head-login">马上登录</a>
+            </p>
+        </div>
+    </div>
+    <div class="warp">
+        <div class="registor">
+            <div class="registor-l">
+                <div class="registor-l-box1">
+                    <p class="registor-tit">开网店更便捷</p>
+                    <p>PC/移动店铺、PC/移动企业官网、微信店铺、小程序店铺，<span class="blue-reg">一键轻松快捷建立</span>，帮助企业布局新一代互联网营销。</p>
+                </div>
+                <div class="registor-l-box2">
+                    <p class="registor-tit">找客户更高效</p>
+                    <p>信息发布简单快捷，<span class="blue-reg">各大搜索引擎收录快</span>，百度、搜狗、360、UC各大搜索精准推广。</p>
+                </div>
+                <div class="registor-l-box3">
+                    <p class="registor-tit">谈品牌更专业</p>
+                    <p>站内站外匹配搜索，流量推广优质服务，<span class="blue-reg">询盘推送精准可靠</span>，四面八方铺货商机。</p>
+                </div>
+                <div class="registor-l-box4">
+                    <p class="registor-tit">做推广更简单</p>
+                    <p>权威媒体海量曝光，<span class="blue-reg">轻松提升品牌知名度</span>、美誉度、提升企业品牌形象度。</p>
+                </div>
+            </div>
+            <div class="register-r">
+                <div class="register-r-top">免费注册会员</div>
+                <div class="register-input">
+                    <form id="form1" method="post" action="./php/reg.php">
+                        <div class="box">
+                            <div class="inputbox">
+                                <div class="input-box-text">用 户 名</div>
+                                <input autocomplete="off" type="text" maxlength="20" id="username" class="input-box-input" name="username" value="" placeholder="您的专属昵称">
+                                <label id="username-error" class="error" for="username"></label>
+                            </div>
+                            <div class="username-error">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="inputbox relative">
+                                <div class="input-box-text">公司名称</div>
+                                <input autocomplete="off" type="text" class="input-box-input" id="comname" maxlength="40" name="comname" value="" placeholder="点击蓝色图标查看帮助">
+                                <label id="companyname-error" class="error" for="comname"></label>
+                                <div class="help">
+                                    <a href="javascript:;">
+                                        <div class="help-hidden">
+                                            <p>1. 请填写营业执照上的公司名全称，如：北京富贵科技有限公司</p>
+                                            <p>2. 无公司名的个体工商户，请按“经营者姓名+（个体经营）”的格式填写，如：张三（个体经营）</p>
+                                            <p>3. 请与营业执照上的公司名称保持一致，否则将无法通过审核</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="companyname-error"></div>
+                        </div>
+                        <div class="box">
+                            <div class="inputbox">
+                                <div class="input-box-text">设置密码</div>
+                                <input autocomplete="off" type="password" name="password" id="password" maxlength="20" placeholder="建议至少用两种字符组合" class="input-box-input" value="">
+                                <label id="password-error" class="error" for="password"></label>
+                            </div>
+                            <div class="password-error"></div>
+                        </div>
+                        <div class="box">
+                            <div class="inputbox">
+                                <div class="input-box-text">确认密码</div>
+                                <input autocomplete="off" id="secpassword" name="repassword" type="password" maxlength="20" class="input-box-input" placeholder="请再次输入密码" value="">
+                                <label id="repassword-error" class="error" for="repassword"></label>
+                            </div>
+                            <div class="passwordagain-error"></div>
+                        </div>
+                        <div class="box">
+                            <div class="inputbox">
+                                <div class="input-box-text">手机号码</div>
+                                <input autocomplete="off" id="mobile" name="mobile" maxlength="11" type="text" class="input-box-input" value="" placeholder="建议使用常用手机，作为登录使用" data-mobile="" name="mobile">
+                                <label id="mobile-error" class="error" for="mobile"></label>
+                            </div>
+                            <div class="phone-error"></div>
+                        </div>
+                        <div class="box clear">
+                            <div class="inputbox left" style="width:250px">
+                                <div class="input-box-text">图形验证码</div>
+                                <input autocomplete="off" id="imgcheckcode" name="imgCheckCode" maxlength="6" class="input-box-input" type="text" value="" placeholder="图片验证码" style="width:140px;">
+                                <label id="imgCheckCode-error" class="error" for="imgCheckCode"></label>
+                            </div>
+                            <div class="code" style="line-height: 40px;"><img id="imgcode-check" src="http://www.912688.com/imageCheckCode.html?flag=register" onclick="this.src='http://www.912688.com/imageCheckCode.html?flag=register&amp;t=' + new Date().getTime()" class="right" style="height: 40px;"></div>
+                            <div class="imgcheck-error" style="clear: both;"></div>
+                        </div>
+                        <!-- <div class="box clear">
+                            <div class="inputbox relative">
+                                <div class="input-box-text">手机验证码</div>
+                                <input autocomplete="off" id="messageCheckCode" name="messCheckCode" type="text" class="input-box-input" placeholder="请输入验证码">
+                                <input type="button" id="btn" value="获取验证码" class="setting0628 right">
+                            </div> -->
+                        <div class="phonecheck-error"></div>
+                </div>
+                <div class="clear">
+                    <input id="subButton" class="register-button" name="submit" value="立即免费注册" type="submit">
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer "></div>
+    <script src="script/thirdplugins/jquery.js"></script>
+    <script src="script/thirdplugins/jquery.validate.js"></script>
+    <script src="script/js/cookie.js"></script>
+    <script src="script/js/register.js"></script>
+    <script>
+        $(function() {
+            $('#subButton').on('click', function() {
+                console.log(1)
+                var username = $("#username").val();
+                var password = $("#password").val();
+                var mobile = $("#mobile").val();
+            });
+        });
+    </script>
+</body>
+
+</html>

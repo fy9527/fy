@@ -1,0 +1,175 @@
+.login-header {
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  padding: 16px 0;
+}
+.login-header .login-wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+.login-header .login-wrap img {
+  display: block;
+  width: 293px;
+  height: 48px;
+}
+.login-header .login-wrap p {
+  padding-top: 30px;
+}
+.login-header .login-wrap p a {
+  color: #ff6700;
+}
+
+.main-login {
+  margin-bottom: 30px;
+  background: url(http://style.912688.com/_resources/login/images/bg-login.jpg) no-repeat center top;
+  height: 480px;
+}
+
+.wrap-login {
+  width: 1000px;
+  margin: 0 auto;
+}
+.wrap-login .login-l {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+.wrap-login .login-l a {
+  display: block;
+  width: 620px;
+  height: 400px;
+}
+.wrap-login .login-r {
+  position: relative;
+  float: right;
+  width: 340px;
+  top: 75px;
+  background: #fff;
+}
+
+.login-r .login {
+  width: 250px;
+  text-align: center;
+  margin: 24px auto;
+  border-bottom: solid 1px #EEEEEE;
+}
+.login-r .login span {
+  width: 80px;
+  height: 30px;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 24px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login-active {
+  color: #ff5700;
+  border-bottom: solid 2px #ff5700;
+}
+
+.login-form {
+  display: block;
+  padding: 20px 25px;
+}
+.login-form label {
+  position: absolute;
+  top: 10px;
+  left: 165px;
+  z-index: 99999999;
+}
+.login-form .login-item {
+  width: 288px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 22px;
+  position: relative;
+  overflow: hidden;
+}
+.login-form .login-item .icon-login {
+  background: url(http://style.912688.com/_resources/login/images/icon-login.png) no-repeat;
+}
+.login-form .login-item .icon-user, .login-form .login-item .icon-password {
+  float: left;
+  width: 42px;
+  height: 40px;
+  background-position: 0 0;
+  border-right: 1px solid #ccc;
+}
+.login-form .login-item .icon-password {
+  background-position: 0 -45px;
+}
+.login-form .login-item .login-input {
+  float: left;
+  width: 213px;
+  border: 0;
+  padding: 12px 15px;
+}
+.login-form .login-item .icon-close {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  cursor: pointer;
+  background: url(http://style.912688.com/_resources/login/images/icon-login.png) no-repeat -12px -324px;
+}
+
+.login-subbox {
+  margin-bottom: 19px;
+}
+.login-subbox .login-btn {
+  font-size: 16px;
+  width: 100%;
+  height: 38px;
+  border: 0;
+  background: #ff6700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.erweima .ewmpic {
+  position: relative;
+  width: 100%;
+  height: 152px;
+  margin-top: 30px;
+}
+.erweima .ewmpic img {
+  opacity: 1;
+  margin-left: 96px;
+  width: 150px;
+  height: 152px;
+}
+.erweima .richscan {
+  position: relative;
+  margin-top: 26px;
+}
+.erweima .richscan .saoma {
+  position: absolute;
+  left: 68px;
+}
+.erweima .richscan p {
+  width: 140px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 20px;
+  margin-left: 120px;
+}
+.erweima .richscan .free_regist {
+  margin: 30px 25px 25px 25px;
+  height: 16px;
+}
+
+#passworderror {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  left: 168px;
+  color: #333;
+  line-height: 40px;
+  display: none;
+}
+
+/*# sourceMappingURL=login.css.map */

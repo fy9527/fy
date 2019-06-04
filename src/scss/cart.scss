@@ -1,0 +1,366 @@
+    @charset "UTF-8";
+    .head-nav {
+        background: #3399FF;
+        height: 58px;
+    }
+    
+    .wrap {
+        width: 1190px;
+        margin: 0 auto;
+        .logo {
+            margin-top: 10px;
+            width: 110px;
+            display: inline-block;
+        }
+        .headnav-list {
+            vertical-align: top;
+            margin-left: 100px;
+            display: inline-block;
+            li {
+                float: left;
+                a {
+                    display: block;
+                    font-size: 14px;
+                    height: 58px;
+                    line-height: 58px;
+                    padding: 0 32px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+    .headnav-active {
+        background: #2D8DEC
+    }
+    
+    .main {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .cart-l {
+        width: 150px;
+        .cartbox-t {
+            padding-top: 17px;
+            padding-bottom: 10px;
+            margin-bottom: 8px;
+            border: 1px solid #ebebeb;
+            background: #FFF;
+        }
+        .menu-title {
+            background-position: -5px -481px;
+        }
+    }
+    
+    .menu-title {
+        background: url(http://style.912688.com/_resources/memberCenter/images/icon-menu.png) no-repeat;
+        font-size: 14px;
+        color: #333;
+        padding-left: 38px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        position: relative;
+    }
+    
+    .menu-item-link {
+        display: block;
+        height: 32px;
+        line-height: 32px;
+        padding-left: 38px;
+        color: #333;
+        position: relative;
+    }
+    
+    .act {
+        color: #3399ff;
+    }
+    
+    .cartbox-b {
+        padding-top: 17px;
+        padding-bottom: 10px;
+        margin-bottom: 8px;
+        border: 1px solid #ebebeb;
+        background: #FFF;
+        .menu-title {
+            background-position: -5px -535px;
+        }
+    }
+    
+    .cart-r {
+        width: 1030px;
+        margin: 0 auto;
+    }
+    
+    .cart-wrap {
+        background: #fff;
+        margin-bottom: 20px;
+        .w {
+            width: 990px;
+            margin: 0 auto;
+        }
+    }
+    
+    .cart-thead {
+        height: 32px;
+        line-height: 32px;
+        margin: 0 0 10px;
+        padding: 5px 0;
+        background: #fff;
+        border: 1px solid #e9e9e9;
+        border-top: 0;
+        .cart-col {
+            float: left;
+        }
+        .t-checkbox {
+            height: 18px;
+            line-height: 18px;
+            padding-top: 7px;
+            width: 122px;
+            padding-left: 11px;
+        }
+        .t-goods {
+            width: 208px;
+        }
+        .t-prices {
+            width: 130px;
+            padding-right: 40px;
+            text-indent: 55px;
+            height: 32px;
+        }
+        .t-quantity {
+            text-align: center;
+            width: 60px;
+        }
+        .t-sum {
+            width: 114px;
+            padding-right: 30px;
+            text-align: right;
+        }
+        .t-action {
+            display: none
+        }
+    }
+    
+    .cart-item-list {
+        margin-bottom: 20px;
+        .item-list {
+            background: #FF8400;
+            .item-head {
+                height: 26px;
+                padding: 5px 10px;
+                overflow: hidden;
+            }
+        }
+    }
+    
+    .header-price {
+        width: 100px;
+        float: left;
+        text-align: right;
+    }
+    
+    .header-left {
+        width: 750px;
+        line-height: 26px;
+        float: left;
+        a {
+            color: #fff;
+        }
+        .header-left-p1 {
+            color: #fff;
+            span {
+                margin: 0 10px 0 5px;
+                padding: 1px 10px;
+                // border: 1px solid #f48719;
+                // background: #f48719;
+                color: white;
+                position: relative;
+            }
+        }
+        .header-left-p2 {
+            margin-left: 20px;
+            padding: 0 5px;
+            // border-radius: 2px;
+            // background: #e74649;
+            color: white;
+            display: inline-block;
+            height: 19px;
+            line-height: 19px;
+        }
+    }
+    
+    .goods-item-sele {
+        background: #fff4e8;
+        width: 95%;
+        height: 120px;
+        position: relative;
+    }
+    
+    .goods-item {
+        padding: 0 10px 0 40px;
+        position: relative;
+    }
+    
+    .cell {
+        float: left;
+    }
+    
+    .title {
+        color: #111;
+        font-size: 16px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    
+    .icon-del {
+        margin-right: 5px;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+        display: inline-block;
+        background: url(http://style.912688.com/_resources/memberCenter/images/icon-member.png) no-repeat -41px -1767px;
+    }
+    
+    .b-checkbox {
+        position: absolute;
+        left: 10px;
+        width: 30px;
+        height: 20px;
+        padding: 15px 0 10px 0;
+    }
+    
+    .goods-info {
+        border-top: 1px solid #f1f1f1;
+        // overflow: hidden;
+        .b-checkbox {
+            position: absolute;
+            left: 10px;
+            width: 30px;
+            height: 20px;
+            padding: 15px 0 10px 0;
+        }
+        .b-goods {
+            width: 300px;
+            padding: 15px 0 10px 0;
+        }
+        .b-props {
+            height: 80px;
+            padding: 15px 10px 0 10px;
+            overflow: hidden;
+        }
+        .b-price {
+            width: 120px;
+            padding: 15px 40px 10px 0;
+            overflow: hidden;
+            text-align: center;
+        }
+        .b-quantity {
+            width: 80px;
+            padding: 15px 0 10px;
+        }
+        .b-sum {
+            width: 100px;
+            height: 20px;
+            padding: 15px 40px 15px 0;
+            text-align: right;
+        }
+        .b-action {
+            padding: 15px 0 10px 0;
+        }
+    }
+    
+    #cart-floatbar {
+        width: 988px;
+        height: 50px;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+        position: relative;
+        .select-all {
+            float: left;
+            height: 18px;
+            line-height: 18px;
+            padding: 16px 0 16px 9px;
+            input {
+                margin-right: 5px;
+            }
+        }
+        .operation {
+            float: left;
+            height: 50px;
+            width: 310px;
+            line-height: 50px;
+            a {
+                margin-left: 20px;
+                display: inline-block;
+                height: 50px;
+            }
+        }
+        .toolbar-right {
+            overflow: hidden;
+            .price-sum {
+                float: right;
+                height: 43px;
+                line-height: 20px;
+                margin: 7px 20px 0 10px;
+                color: #666;
+                width: 220px;
+                span {
+                    display: inline-block;
+                    width: 110px;
+                    height: 20px;
+                    // float: left;
+                    // text-align: left;
+                }
+                .totalprice {
+                    font-size: 18px;
+                    color: #e4393c;
+                    font-weight: 700;
+                }
+            }
+            .amount-sum {
+                float: right;
+                color: #999;
+                height: 44px;
+                line-height: 20px;
+                margin: 7px 0 0;
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .goods-pic {
+        img {
+            display: block;
+            width: 80px;
+            padding: 80px;
+            position: absolute;
+            top: -60px;
+            left: -40px;
+        }
+    }
+    
+    .goods-d-info {
+        position: absolute;
+        top: 30px;
+        left: 173px;
+        a {
+            display: block;
+            width: 140px;
+            height: 50px;
+        }
+    }
+    
+    .sales-promotion {
+        display: none
+    }
+    
+    .quantity-form input {
+        width: 30px;
+        text-align: center
+    }
+    
+    .quantity-text {
+        text-indent: 12px;
+        margin-top: 5px;
+    }

@@ -1,0 +1,183 @@
+        @charset "UTF-8";
+        .login-header {
+            background: #ffffff;
+            border-bottom: 1px solid #eee;
+            padding: 16px 0;
+            .login-wrap {
+                width: 1000px;
+                margin: 0 auto;
+                img {
+                    display: block;
+                    width: 293px;
+                    height: 48px;
+                }
+                p {
+                    padding-top: 30px;
+                    a {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+        
+        .registor {
+            width: 1000px;
+            height: 550px;
+            margin: 60px auto 45px;
+            padding: 30px 0;
+            background: #fff;
+            border-radius: 3px;
+            .registor-l {
+                width: 500px;
+                float: left;
+                border-right: 1px solid #eeeeee;
+                .registor-l-box1 {
+                    background-position: 34px 34px;
+                }
+                .registor-l-box2 {
+                    background-position: 34px -98px;
+                }
+                .registor-l-box3 {
+                    background-position: 34px -232px;
+                }
+                .registor-l-box4 {
+                    background-position: 34px -365px;
+                }
+                span {
+                    color: #11a6e4;
+                }
+            }
+        }
+        
+        .registor-l-box1,
+        .registor-l-box2,
+        .registor-l-box3,
+        .registor-l-box4 {
+            padding: 35px 40px 35px 120px;
+            background: url(http://style.912688.com/_resources/login/images/register-icon.png) no-repeat;
+        }
+        
+        .registor-tit {
+            font-size: 18px;
+            color: #111111;
+        }
+        
+        .register-r {
+            width: 384px;
+            float: right;
+            padding: 0 57px;
+            .register-r-top {
+                font-size: 18px;
+                color: #ff6700;
+                text-align: center;
+            }
+            .register-input {
+                padding-top: 20px;
+            }
+        }
+        
+        .inputbox {
+            display: block;
+            height: 40px;
+            border: 1px solid #cccccc;
+            border-radius: 3px;
+            position: relative;
+        }
+        
+        label {
+            width: 384px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 12px;
+            color: #fd5555;
+            display: block;
+            position: absolute;
+            top: 40px;
+            left: 0px;
+        }
+        
+        .username-error,
+        .companyname-error,
+        .password-error,
+        .passwordagain-error,
+        .phone-error,
+        .imgcheck-error,
+        .phonecheck-error {
+            height: 24px;
+            line-height: 24px;
+            font-size: 12px;
+            color: #fd5555;
+            // display: block;
+        }
+        
+        .input-box-text {
+            line-height: 40px;
+            width: 80px;
+            float: left;
+            text-align: right;
+            color: #333;
+            padding-right: 10px;
+        }
+        
+        .input-box-input {
+            width: 270px;
+            line-height: 40px;
+            height: 38px;
+            float: left;
+            outline: none;
+            font-size: 14px;
+            border: none;
+            padding-left: 10px;
+        }
+        
+        .help {
+            position: absolute;
+            right: -25px;
+            top: 13px;
+            a {
+                display: block;
+                width: 16px;
+                height: 16px;
+                background: url(http://style.912688.com/_resources/login/images/error.png) no-repeat 0 -70px;
+                .help-hidden {
+                    padding: 10px;
+                    border: 1px solid #e5e5e5;
+                    width: 145px;
+                    position: absolute;
+                    right: -170px;
+                    line-height: 23px;
+                    background: #e6f8ff;
+                    font-size: 12px;
+                    border-radius: 3px;
+                    display: none;
+                }
+            }
+        }
+        
+        .setting0628 {
+            display: inline-block;
+            width: 90px;
+            height: 28px;
+            line-height: 28px;
+            background: #ff6700;
+            color: #ffffff;
+            border-radius: 3px;
+            position: absolute;
+            right: 10px;
+            top: 6px;
+            border: none;
+        }
+        
+        .register-button {
+            border: 0;
+            display: block;
+            width: 100%;
+            height: 42px;
+            line-height: 42px;
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+            background: #ff6700;
+            border-radius: 3px;
+            cursor: pointer;
+        }

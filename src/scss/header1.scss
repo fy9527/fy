@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*共用头部*/
+
+$left: left;
+$right:right;
+.header {
+    width: 100%;
+    background: #f3f3f3;
+    color: #777;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+    .header_warp {
+        width: 1190px;
+        margin: 0 auto;
+        height: 38px;
+        line-height: 38px;
+    }
+}
+
+.header_warp_phone,
+.register,
+.header_warp_iconphone,
+.topnav_iconhome {
+    float: $left;
+}
+
+.header_warp_phone {
+    width: 83px;
+    padding-left: 9px;
+    cursor: pointer;
+    background: url(../img/common-nav.png) no-repeat 72px -14px;
+    position: relative;
+}
+
+.topnav {
+    float: $right;
+    li {
+        float: $left;
+        padding: 0 16px 0 13px;
+        a {
+            color: #777;
+        }
+    }
+}
+
+.register {
+    a {
+        color: #ff5600;
+    }
+}
+
+.header_warp_iconphone {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+    background: url(../img/common-nav.png) no-repeat 0 -185px;
+}
+
+.topnav_iconhome {
+    display: block;
+    width: 20px;
+    height: 15px;
+    margin-top: 12px;
+    background: url(../img/common-nav.png) no-repeat 0 0px;
+}
+
+.topnav_iconlist {
+    background: url(../img/common-nav.png) no-repeat 60px -14px;
+    position: relative;
+}
+
+
+/*二级导航手机网站*/
+
+.header_warp_phonehide {
+    width: 255px;
+    border: 1px solid #e9e9e9;
+    position: absolute;
+    background: #fff;
+    z-index: 10000;
+    top: 38px;
+    left: -1px;
+    display: none;
+    .header_warp_phonehide_t {
+        height: 36px;
+        line-height: 36px;
+        border-bottom: 1px solid #e9e9e9;
+        font-size: 12px;
+        padding-left: 10px;
+        .header_warp_phonehide_t a {
+            color: #777
+        }
+    }
+    .header_warp_phonehide_img {
+        padding: 10px 0 10px 10px;
+    }
+}
+
+.header_warp_phone:hover .header_warp_phonehide {
+    display: block;
+}
+
+
+/*二级导航会员中心 网站导航*/
+
+.topnav_hide1 {
+    width: 190px;
+    padding: 9px 0 3px 0;
+    position: absolute;
+    left: -1px;
+    border: solid 1px #e9e9e9;
+    border-top: none;
+    display: none;
+    z-index: 10000;
+    background: #fff;
+    dl {
+        padding-left: 12px;
+        line-height: 1.5;
+        font-size: 12px;
+        dt {
+            cursor: auto;
+            color: #111;
+        }
+        dd {
+            float: left;
+            padding: 4px 16px 6px 0;
+        }
+    }
+}
+
+.topnav_hidelist1:hover .topnav_hide1 {
+    display: block;
+}
+
+.topnav_hide2 {
+    width: 140px;
+    @extend.topnav_hide1
+}
+
+.topnav_hidelist2:hover .topnav_hide2 {
+    display: block;
+}
